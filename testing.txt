@@ -1,0 +1,13 @@
+---------kaggle score{0.13702} and rank = 1693 ------(1)
+
+model=XGBRegressor(learning_rate=0.06,reg_alpha=0.1,reg_lambda=1)
+train rmse is 0.03816104551652763
+Cv rmse : 0.1381029254856145
+[126026.336 157191.16  183501.88  ... 151739.75  113576.82  210940.38 ]
+
+--------------kaggle score{0.13171} and rank = 1264 ------(2_)
+
+model=XGBRegressor(n_estimators=200,learning_rate=0.06,max_depth=3,reg_alpha=0.1,reg_lambda=1,random_state=42)
+train rmse is 0.0712627634882685
+Cv rmse : 0.12453284247231235
+[121023.78 149638.75 182945.5  ... 159009.36 121764.37 221721.14]
